@@ -9,16 +9,16 @@
 -
 
 # Mode switching shortcuts
-key(ctrl-alt-s): speech.disable()  
-key(ctrl-alt-w): speech.enable()  
+# key(ctrl-alt-s): speech.disable()  
+# key(ctrl-alt-w): speech.enable()  
 key(ctrl-alt-c): mode.enable("command") 
 key(ctrl-alt-d): mode.enable("dictation")
 
 # Alternative shortcuts using F-keys (uncomment if preferred)
-# key(f1): speech.disable()
-# key(f2): speech.enable() 
-# key(f3): mode.enable("command")
-# key(f4): mode.enable("dictation")
+key(f2): speech.disable()
+key(f3): speech.enable() 
+key(f4): mode.enable("command")
+key(f5): mode.enable("dictation")
 
 # Emergency sleep (useful if voice commands aren't working)
 key(ctrl-alt-shift-s): speech.disable()
